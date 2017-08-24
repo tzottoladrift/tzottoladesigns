@@ -1,0 +1,239 @@
+/** Style Sheet for tzottoladesigns.com**/
+
+body {
+	/*margin: 50px;*/
+	color: #871c3c;
+	background: linear-gradient(to right, #db8708 0%,#ffffff 34%,#ffffff 64%,#db8708 100%);
+}
+
+header {
+	top: 0;
+  	/*position: fixed;*/
+  	width: 100%;
+	border-bottom: .5em solid #8560a8;
+	background-color: #db8708;
+	
+}
+
+.navigation {
+	display: grid;
+	grid-template-columns: 50% 10% 40%;
+	justify-content: space-evenly;
+}
+
+.logo-title {
+	font-family: 'Kranky', cursive;
+	font-size: 3em;
+	justify-content: left;
+}
+
+.logo img {
+	width: 80px;
+	margin-top: 2em;
+}
+
+.logo {
+	justify-content: right;
+}
+
+nav {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #871c3c;
+	margin-top: 3em;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 3em;
+	font-size: 1.5em;
+	color: #871c3c;
+}
+
+nav a:hover {
+	color: #BE3144;
+}
+
+
+
+
+/** About **/
+
+.about  {
+	margin: 100px 0;
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+
+.picture img {
+	height: 200px;
+	width: auto;
+	border-radius: 25%;
+	border: 1px solid #BE3144;
+	
+}
+
+.picture {
+	justify-self: center;
+}
+
+.story {
+	width: 70%;
+	justify-self: left;
+	font-size: 1.3em;
+}
+/* Portfolio */
+
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 20px;
+}
+
+#portfolio {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #BE3144;
+	font-size: 1.5em;
+	padding-bottom: 3em;
+}
+
+#portfolio a {
+	text-decoration: none;
+	color: #871c3c;
+	font-size: .5em;
+
+}
+
+#portfolio a:hover {
+	color: #db8708;
+}
+
+#portfolio .thumbnail {
+	height: 100px;
+	width: auto;
+	overflow: hidden;
+	border: 2px solid #871c3c;
+}
+
+/** Contact Page **/
+.contact-body {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact-main {
+
+}
+
+.first-name .email {
+	height: 20px;
+	width: 200px;
+}
+
+.comment {
+	height: 200px;
+	width: 300px;
+}
+
+.question {
+	justify-self: center;
+}
+
+/** Footer **/
+
+footer {
+	height: 200px;
+	background-color: #BE3144;
+	border-top: 3px solid #8560a8;
+	text-align: center;
+	width: 100%;
+}
+
+.social li  {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3em;
+	padding-top: 3em;
+}
+
+.social a {
+	text-decoration: none;
+	color: #871c3c;
+}
+
+a:hover { 
+	color: #db8708;
+}
+
+h3.copyright {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #871c3c;
+}
+
+/** Media Queries **/
+
+@media screen and (max-width: 320px) {
+	.logo {
+		width: 40px;
+	}
+	.logo-title {
+		font-family: 'Kranky', cursive;
+		float: left;
+		background-color: #db8708;
+		width: 200px;
+		height: 40px;
+		font-size: 1.5em;
+		padding: 5px;
+		margin: auto;
+	}
+	.logo img {
+		width: 60px;
+		margin: auto;
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		width: 80px;
+		float: left;
+		margin: auto;
+		margin-top: 2em;
+	}
+	
+	nav a {
+		text-decoration: none;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 768) {
+	.logo {
+		width: 80px;
+	}
+	.logo-title {
+		font-family: 'Kranky', cursive;
+		background-color: #db8708;
+		width: 300px;
+		height: 60px;
+		font-size: 2em;
+		padding: 10px;
+		margin: auto;
+	}
+	.logo img {
+		width: 80px;
+		margin: auto;
+		margin-top: 2em;
+	}
+}
+
+
+
